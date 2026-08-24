@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anushka Parihar — portfolio coming soon.">
+  <meta name="theme-color" content="#dff3ff">
+  <title>Anushka Parihar — Coming Soon</title>
+  <style>
+    :root { --sky: #dff3ff; }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--sky);
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+    main {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      background: var(--sky);
+    }
+    .poster {
+      display: block;
+      width: min(100%, 1024px);
+      height: auto;
+      max-width: 1024px;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    @media (min-width: 1025px) {
+      main {
+        box-shadow: 0 0 80px rgba(23,35,95,.08);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img
+      class="poster"
+      src="assets/wip-landing.png"
+      alt="Anushka Parihar portfolio coming soon — work in progress"
+      width="1024"
+      height="1536"
+    >
+  </main>
+</body>
+</html>
